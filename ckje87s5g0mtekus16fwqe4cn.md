@@ -1,4 +1,4 @@
-## Setting up Ruby 3.0.0 on Windows 10 or WSL2 Ubuntu
+## Setting up Ruby 3.0.0 on Windows 10 or WSL2 Ubuntu (updated)
 
 ***Update***: You can now just do `gem update --system` and be just fine, but the steps are still there for installing RVM.
 
