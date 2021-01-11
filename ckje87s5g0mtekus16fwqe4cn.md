@@ -2,7 +2,7 @@
 
 ***Update***: You can now just do `gem update --system` and be just fine, but the steps are still there for installing RVM.
 
-
+***
 
  [Ruby 3.0 was released recently](https://www.ruby-lang.org/en/news/2020/12/25/ruby-3-0-0-released/) and seems to be fully backwards compatible with Ruby < 3.0 (2.7, etc). 
 
