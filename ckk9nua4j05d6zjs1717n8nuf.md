@@ -18,12 +18,17 @@ In the bash console for WSL-remote, install Ruby with RVM:
 
 Install a couple rubygems, assuming you have  [RVM installed alongside ruby](https://zeropivot.xyz/setting-up-ruby-300-on-windows-10-or-wsl2-ubuntu-updated) 
 
-`gem update --system` #Always done in new Ruby installations; updates system gems 
-`gem install rufo` # Formats code on save
-`gem install solargraph` #This also installs Rubocop, which I don't use
+Always done in new Ruby installations; updates system gems: 
+`gem update --system`
+Formats code on save:
+`gem install rufo`
+
+This also installs Rubocop
+`gem install solargraph` 
+
+`rubocop -A` in any given directory will lint/format your code.
 
 For extensions to install on VScode... When running in WSL-remote, you can choose
-
 
 ![Code_2021-01-23_03-50-00.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1611402629479/pBD8P2lHM.png)
 
