@@ -87,7 +87,7 @@ For `"ruby.rubocop.executePath"`, set it to the location or rubocop (`whereis ru
 
 Provided is `.rubocop.yml` for use in the root folder of your Ruby project: [.rubocop.yml](https://gist.github.com/ZeroPivot/15b03e03d45d5a33e51ae764cb52fb8a)
 
-Then, in the root directory of your project, `solargraph init .`, which should get the linter going.
+Then, in the root directory of your project, `solargraph config .`, which should get the linter going.
 
 If you have any questions or want to address anything I missed, please do contact me:
 
@@ -98,41 +98,6 @@ And my hashnode is @ZeroPivot
 **Note: Hitting F1 will allow you to choose Remote-WSL, and this is what is used with WSL2
 You can also access Remote-SSH, and all of the same steps apply!**
 
-Gemfile
 
-```
-source 'https://rubygems.org'
-gem "nokogiri"
-gem "fastimage" # get image attributes, even from a url
-gem "aasm"
-gem "andand"
-gem "cloudinary", git: "https://github.com/cloudinary/cloudinary_gem"
-gem "debase"
-gem "free-image" # image manipulation, at a basic level
-gem "mechanize"
-gem "mongo"
-gem "puma"
-gem "rails"
-gem "rerun", git: "https://github.com/alexch/rerun"
-gem "rmagick"
-gem "roda", git: "https://github.com/jeremyevans/roda" # alternative to sinatra; look into
-gem "ruby-debug-ide"
-gem "ruby-vips"
-gem "sequel" # database that has the same author as roda
-gem "shotgun"
-gem "sinatra"
-gem "solargraph"
-gem "sinatra-contrib"
-gem "statemachine"
-gem "telegram_bot"
-gem "time_difference", git: "https://github.com/ZeroPivot/time_difference" # time difference algorithm (https://github.com/tmlee/time_difference)
-gem "twitter"
-gem "tzinfo"
-gem "webrick"
-gem "yaml"
-gem "padrino"
-gem "htmlbeautifier"
-gem "erb_lint"
-```
 
 
